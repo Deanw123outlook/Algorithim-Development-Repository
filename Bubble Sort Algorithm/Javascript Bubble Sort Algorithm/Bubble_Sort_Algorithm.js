@@ -17,7 +17,7 @@ console.log("Array-Unsorted");
 console.log(array);
 /*-----------------------------------------------------------------------------------------------------------*/
 for (let i = 0; i < array.length; i++) {
-  for (let y = 0; y < array.length; y++) {
+  for (let y = 1; y < array.length; y++) {
     //initiate for loop (initiates another for loop to make comparisons) on each iteration
     if (array[i] < array[y]) {
       //if condition is TRUE swap elements
